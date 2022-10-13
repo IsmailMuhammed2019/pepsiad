@@ -10,8 +10,16 @@ body {
 }
 
 .App {
-  text-align: center;
-  background-color: blue;
+width: 90%;
+    height: 90vh;
+    margin: 40px auto 0px auto;
+    text-align: center;
+    background-image: url('imgs/layer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    border-radius: 10px;
+
   
 }
 
