@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from ''
+import logo from './imgs/logo.png'
 
 const Header = () => {
   return (
@@ -15,7 +15,10 @@ const Header = () => {
           <li>Contact</li>
         </ul>
       </div>
-      <div></div>
+      <div className='upperbtn'>
+        <button className='btn'>Login</button>
+        <button className='btn'>SignUp</button>
+      </div>
     </div>
   )
 }
