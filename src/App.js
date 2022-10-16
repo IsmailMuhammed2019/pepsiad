@@ -1,12 +1,32 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './imgs/logo.png'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-
+    <div className='App'>
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+const Header = () => {
+  return (
+    <div className='header'>
+      <logo className='logo'>
+        <img src={logo} alt='' srcset='' />
+      </logo>
+      <div className='nav'>
+        <ul>
+          <li>Home</li>
+          <li>Products</li>
+          <li>Community</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div></div>
+    </div>
+  )
+}
+
+export default App
