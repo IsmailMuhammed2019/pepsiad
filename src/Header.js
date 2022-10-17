@@ -15,8 +15,8 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         <div className='upperbtn'>
-          <button className='btn'>Login</button>
-          <button className='btn'>SignUp</button>
+          <button className='btn blue'>Login</button>
+          <button className='btn grey'>SignUp</button>
         </div>
       </div>
     </div>
