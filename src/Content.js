@@ -8,9 +8,9 @@ const Content = () => {
         <h1>
           BE YOUNG, HAVE FUN,
           <br />
-          <span>DRINK PEPSI</span>
+          <span className='big'>DRINK PEPSI</span>
         </h1>
-        <p>
+        <p className='textcontent'>
           Pepsi is a carbonated soft drink manufactured by PepsiCo.
           <br />
           Originally created and developed in 1893 by Caleb Bradham <br/>and

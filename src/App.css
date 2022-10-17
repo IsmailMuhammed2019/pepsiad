@@ -98,13 +98,20 @@ font-size: 15px;
 .text > h1 {
       text-align: left;
     color: #ffffff;
-    font-size: 35px;
-    margin-top: 67px;
+    font-size: 40px;
+    margin-top: 150px;
 
 }
 
-.text > span {
-      font-size: 49px;
+.big {
+      font-size: 55px;
+}
+
+.textcontent {
+  text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
