@@ -13,7 +13,7 @@ const Content = () => {
         <p>
           Pepsi is a carbonated soft drink manufactured by PepsiCo.
           <br />
-          Originally created and developed in 1893 by Caleb Bradham and
+          Originally created and developed in 1893 by Caleb Bradham <br/>and
           introduced as Brad's Drink, it was renamed as Pepsi-
           <br />
           Cola in 1898, and then shortended to Pepsi in 1961.
