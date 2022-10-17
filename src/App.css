@@ -89,6 +89,11 @@ font-size: 15px;
     color: #004883;
     background: linear-gradient(180deg, #d1d9e1, transparent);
 }
+
+.container {
+  display: flex;
+  justify-content:space-between;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
