@@ -120,9 +120,14 @@ font-size: 15px;
     padding: 10px;
 }
 
+.bottom {
+  margin-top: 120px;
+    margin-left: 120px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    
   }
 }
 
