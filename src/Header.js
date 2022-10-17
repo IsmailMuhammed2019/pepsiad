@@ -8,16 +8,16 @@ const Header = () => {
         <img src={logo} alt='' srcset='' />
       </logo>
       <div className='nav'>
-        <ul>
+        <ul className='menu'>
           <li>Home</li>
           <li>Products</li>
           <li>Community</li>
           <li>Contact</li>
         </ul>
-      </div>
-      <div className='upperbtn'>
-        <button className='btn'>Login</button>
-        <button className='btn'>SignUp</button>
+        <div className='upperbtn'>
+          <button className='btn'>Login</button>
+          <button className='btn'>SignUp</button>
+        </div>
       </div>
     </div>
   )
